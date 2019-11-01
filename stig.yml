@@ -1,0 +1,5 @@
+---
+- name: This is a play to do STIG Compliance
+  hosts: all
+  roles:
+    - { role: redhatofficial.rhel7_stig }
